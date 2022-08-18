@@ -1,0 +1,35 @@
+*{
+    background-color: black;
+    box-sizing: content-box;
+
+}
+
+h2,p{
+    color: aqua;
+}
+div p{
+    color:orange;
+}
+p{
+    color: brown;
+}
+#air{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: 20%;
+    border-color: beige;
+}
+.AR{
+    font-kerning: normal;
+}
+/* boxModel css class2 */
+/*
+BOX MODEL:-
+padding
+margin
+boundry
+*/
+
+h1{
+    border: 5px ridge blanchedalmond;
+    padding: 45px;
+}

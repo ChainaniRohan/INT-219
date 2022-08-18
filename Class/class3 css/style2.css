@@ -1,0 +1,19 @@
+h1{
+    padding: 1em;
+    text-align: center;
+    border: 10px black solid;
+    border-radius: 15px black solid;
+}
+p{
+    padding: 1em 5em;
+    border-left: 15px dotted black;
+    font-size: x-large;
+    text-indent: 10em;
+}
+*{
+    line-height: 200%;
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: 800;
+    background-color: bisque;
+}
