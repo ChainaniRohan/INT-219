@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>HOTEL CM Park</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="main.css">
+        <script src="https://kit.fontawesome.com/dbed6b6114.js" crossorigin="anonymous"></script>
+        <link rel = "icon" href = "images/cmLogotop.jpg" type = "image/png">
+    </head>
+    <body>
+        
+        <header class = "header" id = "header">
+            <div class = "head-top">
+                <div class = "site-name">
+                    <span>CM Park</span>
+                </div>
+                <div class = "site-nav">
+                    <span id = "nav-btn">MENU <i class = "fas fa-bars"></i></span>
+                </div>
+            </div>
+
+            <div class = "head-bottom flex">
+                <h2>Hotel CM Park</h2>
+                <p>Because, Life is to Live</p>
+                <button type = "button" class = "head-btn">GET STARTED</button>
+            </div>
+        </header>
+        <div class = "sidenav" id = "sidenav">
+            <span class = "cancel-btn" id = "cancel-btn">
+                <i class = "fas fa-times"></i>
+            </span>
+
+            <ul class = "navbar">
+                <li><a href = "#header">home</a></li>
+                <li><a href = "#services">services</a></li>
+                <li><a href = "#rooms">rooms</a></li>
+                <li><a href = "#customers">customers</a></li>
+            </ul>
+            <button class = "btn sign-up">sign up</button>
+            <button class = "btn log-in">log in</button>
+        </div>
+
+        <div id = "modal"></div>
+
+        <section class = "services sec-width" id = "services">
+            <div class = "title">
+                <h1>services</h1>
+            </div>
+            <div class = "services-container">
+                <article class = "service">
+                    <div class = "service-icon">
+                        <span>
+                            <i class = "fas fa-utensils"></i>
+                        </span>
+                    </div>
+                    <div class = "service-content">
+                        <h2>Food Service/ Food Runner</h2>
+                        <p>The food and beverage service is part of the service-oriented hospitality sector. It can be a part of a large hotel or tourism business and it can also be run as an independent business. The members of the F&B Services team are required to perform a wide range of tasks which include preparation for service, greeting the guests, taking their orders, settling the bills, and performing various other tasks after the guests leave.</p>
+                        <button type = "button" class = "btn">Know More</button>
+                    </div>
+                </article>
+                <article class = "service">
+                    <div class = "service-icon">
+                        <span>
+                            <i class = "fas fa-swimming-pool"></i>
+                        </span>
+                    </div>
+                    <div class = "service-content">
+                        <h2>Refreshment</h2>
+                        <p>We just checked the hotel for refreshment purpose i.e. 6hr only in the morning & before starts for Paro, bhutan.
+
+                            Rooms are clean, specious though bathrooms are small. Front desk staffs are very helpful but the other staff are not..
+                            
+                            Food is overpriced. Location of the hotel is just 10min (walking distance) away from Bhutan gate.
+                            
+                            </p>
+                        <button type = "button" class = "btn">Know More</button>
+                    </div>
+                </article>
+                <article class = "service">
+                    <div class = "service-icon">
+                        <span>
+                            <i class = "fas fa-broom"></i>
+                        </span>
+                    </div>
+                    <div class = "service-content">
+                        <h2>Housekeeping</h2>
+                        <p>Housekeeping means performing all the duties towards cleaning, maintaining orderliness, and running a house or a business property. In case of hotels, the housekeeping duties involve maintaining the hotel to the best possible state in terms of cleanliness, and keeping it at highly desirable ambience.</p>
+                        <button type = "button" class = "btn">Know More</button>
+                    </div>
+                </article>
+                <article class = "service">
+                    <div class = "service-icon">
+                        <span>
+                            <i class = "fas fa-door-closed"></i>
+                        </span>
+                    </div>
+                    <div class = "service-content">
+                        <h2>Room Security</h2>
+                        <p>In today's technologically advanced world, guest and staff security are more critical than ever. Luckily, you can take plenty of steps to make improvements. From smart surveillance technology to secure Wi-Fi networks, read the advice below to improve your hotel's setup.</p>
+                        <button type = "button" class = "btn">Know More</button>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <div class = "book">
+            <form class = "book-form">
+                <div class = "form-item">
+                    <label for = "checkin-date">Check In Date: </label>
+                    <input type = "date" id = "chekin-date">
+                </div>
+                <div class = "form-item">
+                    <label for = "checkout-date">Check Out Date: </label>
+                    <input type = "date" id = "chekout-date">
+                </div>
+                <div class = "form-item">
+                    <label for = "adult">Adults: </label>
+                    <input type = "number" min = "1" value = "1" id = "adult">
+                </div>
+                <div class = "form-item">
+                    <label for = "children">Children: </label>
+                    <input type = "number" min = "1" value = "1" id = "children">
+                </div>
+                <div class = "form-item">
+                    <label for = "rooms">Rooms: </label>
+                    <input type = "number" min = "1" value = "1" id = "rooms">
+                </div>
+                <div class = "form-item">
+                    <input type = "submit" class = "btn" value = "Book Now">
+                </div>
+            </form>
+        </div>
+
+        <section class = "rooms sec-width" id = "rooms">
+            <div class = "title">
+                <h2>rooms</h2>
+            </div>
+            <div class = "rooms-container">
+                <article class = "room">
+                    <div class = "room-image">
+                        <img src = "images/img1.jpg" alt = "room image">
+                    </div>
+                    <div class = "room-text">
+                        <h3>Luxury Rooms</h3>
+                        <ul>
+                            <li>
+                                <i class = "fas fa-arrow-alt-circle-right"></i>
+                                5 Star Rooms
+                            </li>
+                            <li>
+                                <i class = "fas fa-arrow-alt-circle-right"></i>
+                                3 Continentes Food
+                            </li>
+                            <li>
+                                <i class = "fas fa-arrow-alt-circle-right"></i>
+                                Amuzing View from Balcony
+                            </li>
+                        </ul>
+                        <p>Luxury, it seems, can be a small thing such as creating a meaningful experience or showing you care. But large or small, it should create an emotional connection with people, the product and the brand.</p>
+                        <p class = "rate">
+                            <span>₹3099.00 /</span> Per Night
+                        </p>
+                        <button type = "button" class = "btn">book now</button>
+                    </div>
+                </article>
+                <article class = "room">
+                    <div class = "room-image">
+                        <img src = "images/img2.jpg" alt = "room image">
+                    </div>
+                    <div class = "room-text">
+                        <h3>Luxury Rooms</h3>
+                        <ul>
+                            <li>
+                                <i class = "fas fa-arrow-alt-circle-right"></i>
+                                4 Star Rooms
+                            </li>
+                            <li>
+                                <i class = "fas fa-arrow-alt-circle-right"></i>
+                                2 Continentes Food
+                            </li>
+                            <li>
+                                <i class = "fas fa-arrow-alt-circle-right"></i>
+                                Amuzing View from windows                            </li>
+                        </ul>
+                        <p>Everything you do must reflect luxury, says Frank Schuetzendorf, who was previously the F&B Director at the Hôtel Plaza Athénée in Paris. You’re not compromising or cost cutting. A level of investment is required to deliver the quality and service, the experiences expected with luxury. It’s about doing things right, the attention to detail, following through on everything.</p>
+                        <p class = "rate">
+                            <span>₹2099.00 /</span> Per Night
+                        </p>
+                        <button type = "button" class = "btn">book now</button>
+                    </div>
+                </article>
+                <article class = "room">
+                    <div class = "room-image">
+                        <img src = "images/img3.jpg" alt = "room image">
+                    </div>
+                    <div class = "room-text">
+                        <h3>Luxury Rooms</h3>
+                        <ul>
+                            <li>
+                                <i class = "fas fa-arrow-alt-circle-right"></i>
+                                3 Star Rooms
+                            </li>
+                            <li>
+                                <i class = "fas fa-arrow-alt-circle-right"></i>
+                                One Continentes Food
+                            </li>
+                            <li>
+                                <i class = "fas fa-arrow-alt-circle-right"></i>
+                                Amuzing View of Pool                            </li>
+                        </ul>
+                        <p>Lacking investment, many lost their luster. But, as societies have become wealthier and the “luxury” client evolved and fragmented – culturally, geographically and demographically – it has reawakened the luxury hotel industry. The result: extensive investment and renovation of luxury hotels.</p>
+                        <p class = "rate">
+                            <span>₹1099.00 /</span> Per Night
+                        </p>
+                        <button type = "button" class = "btn">book now</button>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+
+        <section class = "customers" id = "customers">
+            <div class = "sec-width">
+                <div class = "title">
+                    <h1>customers</h1>
+                </div>
+                <div class = "customers-container">
+                    <div class = "customer">
+                        <div class = "rating">
+                            <span><i class = "fas fa-star"></i></span>
+                            <span><i class = "fas fa-star"></i></span>
+                            <span><i class = "far fa-star"></i></span>
+                            <span><i class = "far fa-star"></i></span>
+                            <span><i class = "far fa-star"></i></span>
+                        </div>
+                        <h3>Rooms was specious</h3>
+                        <p>The bathroom does not have gyzer for hot water. The door is broken from inside and bathroom lock was too loose. The location is somewhat odd...also do not have "fab hotel" marketing anywhere. Rooms was specious.
+                        </p>
+                        <img src = "images/cus1.jpg" alt = "customer image">
+                        <span>Lala Lajpat Rai, pune</span>
+                    </div>
+                    <div class = "customer">
+                        <div class = "rating">
+                            <span><i class = "fas fa-star"></i></span>
+                            <span><i class = "fas fa-star"></i></span>
+                            <span><i class = "fas fa-star"></i></span>
+                            <span><i class = "fas fa-star"></i></span>
+                            <span><i class = "far fa-star"></i></span>
+                        </div>
+                        <h3>Comfortable Living</h3>
+                        <p>Rooms r like 5 star hotel,it was just beyond expectations,view from the room is jus amazing big windows.food is very delicious especially deserts.me n my wife enjoyed our stay . superb location worth it.
+                        </p>
+                        <img src = "images/cus2.jpg" alt = "customer image">
+                        <span>Balgangadhar tilk, pune</span>
+                    </div>
+                    <div class = "customer">
+                        <div class = "rating">
+                            <span><i class = "fas fa-star"></i></span>
+                            <span><i class = "fas fa-star"></i></span>
+                            <span><i class = "fas fa-star"></i></span>
+                            <span><i class = "fas fa-star"></i></span>
+                            <span><i class = "far fa-star"></i></span>
+                        </div>
+                        <h3>Nice Place</h3>
+                        <p>The staff is really nice and helpful. The location of hostel is close to 500 metres from Assi Ghat which makes traveling really easy. The neighborhood is very peaceful</p>
+                        <img src = "images/cus3.jpg" alt = "customer image">
+                        <span>Bipiin Chandr Pal, pune</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <script src="script.js"></script>
+    </body>
+</html>
